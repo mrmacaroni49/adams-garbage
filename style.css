@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: #c0392b;
+    position: fixed;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 3px;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+    padding: 36px 10px;
+    margin: 0 1px;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+nav a:hover{
+    background: white;
+    color: black;
+}
+
+.banner_area{
+    background: url(Wow_City.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.banner_area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #07064d;
+    opacity: .7;
+    z-index: -1;
+}
+
+.banner_area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: white;
+}
+
+.content_area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    top: 700px;
+}
+
+.content_area h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.content_area p{
+    padding: 2% 0;
+    line-height: 25px;
+    text-align: justify;
+}
